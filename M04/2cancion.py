@@ -28,3 +28,13 @@ linea = input("Escribe una línea de tu canción favorita: ")
 # y muestra un mensaje diferente si es demasiado larga.
 
 
+# Tarea 1, 2, 3 y Reto
+if 0 < len(linea) <= 50:
+    es_valida = True   
+    linea_alineada = linea.rjust(80)
+    print(linea_alineada)
+elif len(linea) > 51:
+    print("Texto muy largo.")
+else:
+    es_valida = False  # Reemplaza con tu código (ej: len(linea) > 0)
+    print("Error: No ingresaste ninguna línea.")
