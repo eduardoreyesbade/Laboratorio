@@ -38,3 +38,5 @@ elif len(linea) > 51:
 else:
     es_valida = False  # Reemplaza con tu código (ej: len(linea) > 0)
     print("Error: No ingresaste ninguna línea.")
+
+# Lsito
