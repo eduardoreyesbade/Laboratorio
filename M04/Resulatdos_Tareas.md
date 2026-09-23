@@ -29,3 +29,31 @@ Entra al elif solo cuando la condición del if resultó False
 
 ### ¿Qué aprendiste del README.md en tu carpeta M04? No olvides los comentarios!
 No hay....
+
+
+
+### TODO Tarea 1: Crear una variable para almacenar el cuadrado (debe ser el numero base multiplicado por sí mismo)
+
+cuadrado = num ** 2
+
+### Mostrar el resultado con un f-string 
+
+print(f"El cuadrado de {num} es: {cuadrado}")
+
+### TODO Tarea 2, 3 y Reto : 
+
+es_positivo = False  # Reemplaza con tu código
+
+es_positivo = int(input("Ingresa un numero= "))
+
+if es_positivo > 0:
+    valor = True
+    text = "El número es Positivo"
+elif es_positivo < 0:
+    valor = False
+    text = "El número es Negativo"
+
+else:
+    valor = "Cero"
+
+print(text)
