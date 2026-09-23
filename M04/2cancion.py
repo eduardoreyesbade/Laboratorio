@@ -1,5 +1,5 @@
 """
-NOMBRE: [Tu Nombre]
+NOMBRE: Eduardo Reyes
 MODULO 4 - TAREA 2
 CANCION FAVORITA
 Uso de manipulación de cadenas, operadores de comparación y sentencias if/else.
@@ -13,8 +13,6 @@ linea = input("Escribe una línea de tu canción favorita: ")
 
 # TODO Tarea 2: Crear una variable booleana para verificar que la línea no esté vacía
 # Usa un operador de comparación (por ejemplo, verificar si el largo de la cadena es mayor a 0)
-es_valida = False  # Reemplaza con tu código (ej: len(linea) > 0)
-
 
 # TODO Tarea 3: Usa una estructura if/else 
 # Si 'es_valida' es True, alinea el texto a la derecha con .rjust(80) e imprímelo.
@@ -28,3 +26,5 @@ es_valida = False  # Reemplaza con tu código (ej: len(linea) > 0)
 
 # TODO Reto: Agrega una condición adicional para verificar si la línea tiene más de 50 caracteres 
 # y muestra un mensaje diferente si es demasiado larga.
+
+
