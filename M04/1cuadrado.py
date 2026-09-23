@@ -35,7 +35,7 @@ else:
     valor = "Cero"
 
 print(text)
-"""
+
 
 # TODO Tarea 3: Agrega una estructura if/else 
 # Si el número es positivo, imprime un mensaje diciendo que lo es. De lo contrario, imprime otro mensaje.
@@ -48,6 +48,7 @@ print(text)
 # Hecho arriba
 ###########
 
+"""
 
 # TODO Reto: Modifica la variable 'num' para que sea ingresado por el usuario usando la función input().
 # Recuerda convertir el valor ingresado a entero usando int().
