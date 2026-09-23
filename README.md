@@ -1,4 +1,4 @@
-# CS1400-Biblioteca
+# CS1400-Biblioteca (Ahora de Eduardo/Weber)
 Repositorio central de CS1400: Programación con Python. Por el resto del semester, utilizaremos GitHub para la entrega de los proyectos. 
 
 # Antes de usar este repositorio, asegurate de haber terminado "M4 GitHub" en Canvas.
