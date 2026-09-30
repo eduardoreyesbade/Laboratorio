@@ -1,3 +1,9 @@
+#############################
+# Eduardo Reyes
+# 09/29/26
+# MÓDULO 5 - EJERCICIO 2
+#############################
+
 """
 ## 📗 Calcular el Área de Varios Círculos (Práctica de Iteraciones)
 
@@ -15,28 +21,48 @@ Uso de bucles (for / while), listas, validación y estructuras de control.
 """
 
 # importando el modulo math
-# import math
+import math
 
 # --- PARTE 1: Iteración sobre una lista de datos (FOR Loop) ---
+"""
+radios = [5, 12, -3, 8, 0] 
 
-radios = [5, 12, -3, 8, 0]
+print("--- Procesando lista de radios ---") 
 
-print("--- Procesando lista de radios ---")
-
-# TODO Tarea 1: Crea un bucle 'for' que recorra la lista 'radios' mira las palabras claves mas adelante para evitar errores.
-#
-
-    # TODO Tarea 2: Verifica con if/else si el radio es válido (mayor a 0).
-    #
-        area = math.pi * (radio ** 2)
-        print(f"Radio: {radio} -> Área: {area:.2f}")
+# Tarea 1: Bucle for que recorre la lista radios
+for r in radios:
+    # Tarea 2: Verifica con if/else si el radio es válido (mayor a 0)
+    if r > 0:  # El radio debe ser estrictamente mayor que cero según tu mensaje de error
+        area = math.pi * (r ** 2)
+        print(f"Radio: {r} -> Área: {area:.2f}")
     else:
-        print(f"Radio: {radio} -> Error: El radio debe ser mayor que cero.")
+        print(f"Radio: {r} -> Error: El radio debe ser mayor que cero.")
 
-
+"""
 # --- PARTE 2: Iteración interactiva y continua (WHILE Loop) ---
 
 print("\n--- Modo Interactivo (Escribe 'salir' para terminar) ---")
+
+while True:
+    pregunta = input("Dame un radio (escribe 'salir' para terminar'): ")
+
+    if pregunta.lower() == 'salir':
+        break
+
+    try:
+        radius = float(pregunta)
+
+        if radius > 0:  # El radio debe ser estrictamente mayor que cero según tu mensaje de error
+            area = math.pi * (radius ** 2)
+            print(f"Radio: {radius} -> Área: {area:.2f}")
+
+        else:
+            print(f"Radio: {radius} -> Error: El radio debe ser mayor que cero.")
+    
+    except ValueError:
+        print("Error: Por favor, introduce un número válido.")
+## Interesante que la restriccion de 'salir' va antes y no despues del calculo. Cada vez que colocaba esto al final, me daba error siempre.
+## 
 
 # TODO Reto: Completa el while loop para solicitar radios al usuario indefinidamente.
 # Debe repetirse hasta que el usuario escriba 'salir'.

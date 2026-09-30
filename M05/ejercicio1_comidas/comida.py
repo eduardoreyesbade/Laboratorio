@@ -1,3 +1,9 @@
+#############################
+# Eduardo Reyes
+# 09/29/26
+# MÓDULO 5 - EJERCICIO 1
+#############################
+
 """
 Este programa debe darle al usuario la opción de elegir una comida de una lista.
 El código asegura que lo ingresado sea legible (en minúsculas) y lo compara con una lista usando lógica if/else.
