@@ -2,8 +2,7 @@
 
 num = int(input("Introduce un número entre 10 y 20: "))
 print("Contando hacia arriba")
-for i in range(0, num, 1):
-    print(i)
+
 print("Contando hacia abajo")
 for i in range(num, 0, -1):
     print(i)
