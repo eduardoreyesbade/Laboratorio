@@ -25,16 +25,16 @@ print("--- EVALUACION PARA CONDUCIR ---")
 
 # Entrada de datos
 edad = int(input("¿Cuantos años tienes? "))
-lentes = input("¿Traes los lentes puestos? (si/no): ").strip().lower() in ["si", "sí"]
+lentes = input("¿Traes los lenes puestos? (si/No): ").strip().lower() in ["si", "sí"]
 dormido = input("¿Dormiste bien anoche? (si/no): ").strip().lower() in ["si", "sí"]
-pantuflas = input("¿Vas a manejar en pantuflas? (si/no): ").strip().lower() in ["si", "sí"]
+pantuflas = input("¿Vas a manjar en chalas o pantuflas? (Si/no): ").strip().lower() in ["si", "sí"]
 
 # Evaluacion con operadores logicos
 if edad < 18:
     print("NO PUEDES CONDUCIR. Todavia eres menor de edad.")
 
 elif pantuflas:
-    print("ENTREGA LAS LLAVES. Las pantuflas resbalan en los pedales.")
+    print("ENTREGA LAS LLAVES AHORA!. Las chalas/pantuflas resbalan en los pedales y te vas a morir!")
 
 elif lentes and dormido:
     print("APROBADO. Puedes conducir tranquilo. Buen viaje.")
